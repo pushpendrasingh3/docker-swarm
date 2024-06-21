@@ -13,7 +13,7 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm ci
-    apt-get install -y docker-ce-cli
+#RUN apt-get install -y docker-ce-cli
 
 # Add the rest of the source
 COPY . .
