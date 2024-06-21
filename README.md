@@ -136,3 +136,4 @@ $ docker run -it -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock vi
 * Comment much more extensively
 * Create tests and make them work better
 * Make CSS more elastic. Currently optimized for 3 nodes on a big screen
+* Testing using Jenkins auto build on git commit
